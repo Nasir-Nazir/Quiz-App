@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QUICK QUIZ</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>QUICK QUIZ</h1>
+        <p id="timer">10:00</p>
+        <div id="box">
+            <h2 id="quesBox"> 1) This is a First Question</h2>
+            <div class="row">
+                <input type="radio" class="options" id="option-1" value="a" name="option">
+                <label for="option-1">Option1</label>
+            </div>
+            <div class="row">
+                <input type="radio" class="options" id="option-2" value="b" name="option">
+                <label for="option-2">Option1</label>
+            </div>
+            <div class="row">
+                <input type="radio" class="options" id="option-3" value="c" name="option">
+                <label for="option-3">Option1</label>
+            </div>
+            <div class="row">
+                <input type="radio" class="options" id="option-4" value="d" name="option">
+                <label for="option-4">Option1</label>
+            </div>
+            <button class="btn" onclick="submitQuiz()">
+                Submit
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
